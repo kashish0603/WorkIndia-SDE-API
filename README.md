@@ -6,6 +6,10 @@ To start the server:
 node server/index.js
 ```
 
+<h4>Tool used for API Testing: Postman</h4>
+<h4>Tech Stack: Node.js, Express.js</h4>
+<h4>Database: MySQL</h4>
+
 <h3>MySQL has 2 tables:</h3>
 <br>
 <h2>1. Users table:</h2>
