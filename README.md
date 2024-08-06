@@ -1,7 +1,36 @@
 # WorkIndia-SDE-API
 Zomato Restaurant Reservation System
 
-To start the server:
+<b>Step 1: Clone the repository</b>
+
+```console
+git clone  https://github.com/kashish0603/WorkIndia-SDE-API.git
+```
+
+<b>Step 2: Create a config.js file for Database connection</b>
+
+```console
+touch config.js
+```
+
+<b>Step 3: Write the below text in config.js file</b>
+
+```console
+module.exports = {
+    db: {
+      host: 'localhost',
+      user: 'root',
+      password: 'YOUR_PASSWORD',
+      database: 'DATABSE_NAME'
+    },
+    adminApiKey: 'YOUR_API_KEY', 
+    JWT_SECRET: 'YOUR_JWT_SECRET_KEY'
+  };
+```
+
+<b>Step 4: Run the requirements.txt file</b>
+
+<b>To start the server:</b>
 ```console
 node server/index.js
 ```
@@ -37,5 +66,10 @@ CREATE TABLE dining_places (
   booked_slots JSON
 );
 ```
+
+<h3>After adding Password Hashing</h3>
+![github](https://github.com/user-attachments/assets/323c7a2c-01ec-4c96-a8b7-942603457825)
+
+
 
 <h4>Thank You for this opportunity, this is my submission for the API Round</h4>
